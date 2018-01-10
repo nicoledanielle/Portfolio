@@ -7,21 +7,23 @@
         <link rel="stylesheet" type="text/css" href="styles/colors.css">
         <link rel="stylesheet" type="text/css" href="styles/main.css">
         <link rel="stylesheet" type="text/css" href="styles/header.css">
+        <link rel="stylesheet" type="text/css" href="styles/footer.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Rubik|Cormorant:100,300,300italic,400,700" rel="stylesheet">
+        <script src="https://use.fontawesome.com/4ee8b97d3b.js"></script>
     </head>
     <body>
         <div class="container">
             <header>
                 <div class="intro">
-                    <h1 id="main-header" class="gray">Nicole Gilbert</h1>
-                    <h1 id="main-title" class="gray">Full Stack Developer</h1>
+                    <h1 id="main-header" class="off-white">Nicole Gilbert</h1>
+                    <h1 id="main-title" class="sky-blue">Full Stack Developer</h1>
                 </div>
                 <nav id="main-nav">
                     <ul>
-                        <li class="main-nav-item"><a href="#">About</a></li>
-                        <li class="main-nav-item"><a href="#">Work</a></li>
-                        <li class="main-nav-item"><a href="#">Tech</a></li>
-                        <li class="main-nav-item"><a href="#">Contact</a></li>
+                        <li class="main-nav-item"><a href="#hero">About</a><i class="fa fa-sun-o" aria-hidden="true"></i></li>
+                        <li class="main-nav-item"><a href="#work">Work</a><i class="fa fa-sun-o" aria-hidden="true"></i></li>
+                        <li class="main-nav-item"><a href="#tech">Tech</a><i class="fa fa-sun-o" aria-hidden="true"></i></li>
+                        <li class="main-nav-item"><a href="#footer">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="hamburger hidden">
@@ -29,40 +31,20 @@
                     <div class="hamburger-stripe"></div>
                     <div class="hamburger-stripe"></div>
                 </div>
-                <nav id="social" class="hidden">
-                <ul>
-                        <li class="social-icon">
-                            <a href="https://github.com/nicoledanielle">
-                                <img src="images/github-icon.png">
-                            </a>
-                        </li>
-                        <li class="social-icon">
-                            <a href="https://www.linkedin.com/in/nicoledgilbert/">
-                                <img src="images/linkedin-icon.png">
-                            </a>
-                            </li>
-                        <li class="social-icon">
-                            <a href="https://twitter.com/nickiedee6">
-                                <img src="images/twitter-icon.png">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
             </header>
-            <div class="main-section">
-                <section class="hero">
-                    <div class="about-img">
+            <section id="hero">
+                <div class="about-img">
                         <img src="images/me-circle.png">
-                    </div>
-                    <div class="about-text dark-blue">
+                </div>
+                <div class="about-text gray">
                             <p><span class="pink">Hello</span>, I'm Nicole.</p>
-                            <p>I am a full stack web developer focused on front end development and design.</p>
+                            <p>I am a full stack web developer with a focused interest in front-end development / UI & UX.</p>
                             <p>I'm passionate about learning and materializing great ideas.</p>
-                            <p>When I'm online I am coding, reading, designing and tinkering.</p>
+                            <p>When I'm online, I am coding, reading, designing and tinkering.</p>
                             <p>When I'm offline, I'm traveling, camping, rock climbing, snowboarding, hula hooping, cooking or playing with my dog.</p>
-                    </div>
-                </section>
-                <section class="work dark-blue">
+                </div>
+            </section>
+            <section id="work">
                     <section class="project">
                         <div class="img i-1"></div>
                         <div class="desc d-1">
@@ -95,14 +77,31 @@
                             <p>JavaScript, JQuery</p>
                         </div>
                     </section>
-                </section>
-            </div>
-            <div class="tech">
-            </div>
-            <footer>
+            </section>
+            <section id="tech">
+            </section>
+            <footer id="footer">
+                <nav id="social">
+                    <ul>
+                        <li class="social-icon">
+                             <a href="https://github.com/nicoledanielle">
+                                <i class="fa fa-github-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="social-icon">
+                            <a href="https://www.linkedin.com/in/nicoledgilbert/">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="social-icon">
+                            <a href="https://twitter.com/nickiedee6">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </footer>
         </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
     <script type="text/javascript" src="js/header.js"></script>
 
