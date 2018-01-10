@@ -1,7 +1,14 @@
 body {
+    display: flex;
+    justify-content: center;
     font-family: 'Rubik', sans-serif;
     background-color: #fcfcfc;
     height: 100%;
-    overflow: auto;
     margin: 0 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
 }
