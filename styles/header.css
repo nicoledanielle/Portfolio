@@ -51,12 +51,12 @@ header {
     list-style: none;
 }
 
-/* .line {
+.line {
     height: 5px;
     width: 100%;
-    background-color: #78bbe6;
+    background-color: rgba(226, 62, 87, 1);
     border-radius: 5px;
     position: absolute;
     bottom: 0;
     left: 0;
-} */
+}
