@@ -1,0 +1,36 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fcfcfc;
+    width: 100vw;
+    height: 10vh;
+}
+
+#main-header {
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    color: #404969;
+    transition: color 0.1s ease-in-out;
+    text-transform: uppercase;
+}
+
+#letters {
+    position: fixed;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.o {
+    transition: none;
+}
+
+.accent {
+    color: #FF895D;
+}
+
+.main-nav-item {
+    list-style: none;
+}
