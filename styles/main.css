@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Rubik', sans-serif;
-    background-color: #fcfcfc;
+    background-color: rgba(120, 187, 230, 1);
     height: 100%;
     margin: 0 0;
 }
@@ -22,36 +22,40 @@ body {
 }
 
 .hero {
-    text-transform: uppercase;
+    background: url("../images/filler-bg-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
     order: 1;
     font-size: 1em;
     width: 100%;
-    font-weight: 700;
+    font-weight: 100;
     z-index: -1;
 }
 
 #he-1 {
-    text-indent: 20%;
+    margin-top: 20%;
+    text-indent: 5%;
 }
 
 #he-2 {
-    text-indent: 80%;
-}
-
-#he-3 {
-    text-indent: 70%;
-}
-
-#he-4 {
     text-indent: 60%;
 }
 
-#he-5 {
+#he-3 {
     text-indent: 50%;
 }
 
-#he-6 {
+#he-4 {
     text-indent: 40%;
+}
+
+#he-5 {
+    text-indent: 30%;
+}
+
+#he-6 {
+    text-indent: 20%;
 }
 
 .work {
