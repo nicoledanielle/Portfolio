@@ -5,6 +5,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height: 10%;
 }
 
 #main-header {
@@ -25,8 +26,8 @@ header {
     box-shadow: 0 0 2px rgba(255, 137, 93, 0.5);
     padding: 10px 10px;
     position: absolute;
-    top: 12px;
-    right: 12px;
+    top: 20%;
+    right: 1%;
 }
 
 .hamburger-stripe {

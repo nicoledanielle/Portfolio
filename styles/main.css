@@ -12,3 +12,43 @@ body {
     flex-direction: column;
     width: 90%;
 }
+
+.main-section {
+    position: absolute;
+    width: 90%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    order: 1;
+    font-family: Cormorant;
+    font-size: 1em;
+    width: 100%;
+    font-weight: 700;
+}
+
+#he-1 {
+    text-indent: 20%;
+}
+
+#he-2 {
+    text-indent: 80%;
+}
+
+#he-3 {
+    text-indent: 70%;
+}
+
+#he-4 {
+    text-indent: 60%;
+}
+
+#he-5 {
+    text-indent: 50%;
+}
+
+#he-6 {
+    text-indent: 40%;
+}
