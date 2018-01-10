@@ -22,59 +22,34 @@ body {
 }
 
 .hero {
-    background: url("../images/me-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* opacity: 0.5; */
     order: 1;
     font-size: 1em;
     width: 100%;
     font-weight: 100;
     z-index: -1;
-}
-
-#he-1 {
-    margin-top: 20%;
-    text-indent: 5%;
-}
-
-#he-2 {
-    text-indent: 20%;
-}
-
-#he-3 {
-    text-indent: 17%;
-}
-
-#he-4 {
-    text-indent: 14%;
-}
-
-#he-5 {
-    text-indent: 11%;
-}
-
-#he-6 {
-    text-indent: 8%;
-}
-
-.about-me {
-    order: 3;
     display: flex;
     flex-direction: row;
-    height: 400px;
-    z-index: 0;
-    background-color:rgba(252, 252, 252, 1);
-    border: solid 1px rgba(226, 62, 87, 1);
-    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;;
+}
+
+.about-img {
+    order: 1;
+    width: 50%;
+}
+
+.about-img img{
+    max-width:90%;
+    max-height:90%;
 }
 
 .about-text {
-    margin: 5% 5%;
+    order: 2;
+    width: 50%;
 }
 
 .work {
-    order: 4;
+    order: 2;
     width: 100%;
     background-color: rgba(252, 252, 252, 1);
     border-radius: 5px;
