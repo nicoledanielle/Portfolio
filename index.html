@@ -7,19 +7,29 @@
         <link rel="stylesheet" type="text/css" href="styles/colors.css">
         <link rel="stylesheet" type="text/css" href="styles/main.css">
         <link rel="stylesheet" type="text/css" href="styles/header.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat|Rubik|Cormorant:100,300,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Rubik|Cormorant:100,300,300italic,400,700" rel="stylesheet">
     </head>
     <body>
         <div class="container">
             <header>
-                <h1 id="main-header" class="dark-blue">Nicole Gilbert</h1>
-                <div class="line"></div>
+                <div class="intro">
+                    <h1 id="main-header" class="gray">Nicole Gilbert</h1>
+                    <h1 id="main-title" class="gray">Full Stack Developer</h1>
+                </div>
+                <nav id="main-nav">
+                    <ul>
+                        <li class="main-nav-item"><a href="#">About</a></li>
+                        <li class="main-nav-item"><a href="#">Work</a></li>
+                        <li class="main-nav-item"><a href="#">Tech</a></li>
+                        <li class="main-nav-item"><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
                 <div class="hamburger hidden">
                     <div class="hamburger-stripe"></div>
                     <div class="hamburger-stripe"></div>
                     <div class="hamburger-stripe"></div>
                 </div>
-                <nav id="social">
+                <nav id="social" class="hidden">
                 <ul>
                         <li class="social-icon">
                             <a href="https://github.com/nicoledanielle">
@@ -38,13 +48,6 @@
                         </li>
                     </ul>
                 </nav>
-                <nav id="main-nav">
-                    <ul>
-                        <li class="main-nav-item"></li>
-                        <li class="main-nav-item"></li>
-                        <li class="main-nav-item"></li>
-                    </ul>
-                </nav>
             </header>
             <div class="main-section">
                 <section class="hero">
@@ -52,37 +55,52 @@
                         <img src="images/me-circle.png">
                     </div>
                     <div class="about-text dark-blue">
-                            <p>About me:</p>
-                            <p>Galaxies tingling of the spine birth Sea of Tranquility, hundreds of thousands concept of the number one. At the edge of forever not a sunrise but a galaxyrise? Bits of moving fluff, made in the interiors of collapsing stars, Rig Veda rings of Uranus! Explorations. Kindling the energy hidden in matter rogue. Vastness is bearable only through love consciousness Flatland consciousness cosmic ocean realm of the galaxies not a sunrise but a galaxyrise worldlets Hypatia, Drake Equation. Realm of the galaxies extraordinary claims require extraordinary evidence and billions upon billions upon billions upon billions upon billions upon billions upon billions.</p>
+                            <p><span class="pink">Hello</span>, I'm Nicole.</p>
+                            <p>I am a full stack web developer focused on front end development and design.</p>
+                            <p>I'm passionate about learning and materializing great ideas.</p>
+                            <p>When I'm online I am coding, reading, designing and tinkering.</p>
+                            <p>When I'm offline, I'm traveling, camping, rock climbing, snowboarding, hula hooping, cooking or playing with my dog.</p>
                     </div>
                 </section>
                 <section class="work dark-blue">
                     <section class="project">
                         <div class="img i-1"></div>
                         <div class="desc d-1">
-                            <h3>Galaxies tingling of the spine birth Sea of Tranquility, hundreds of thousands concept of the number one. At the edge of forever not a sunrise but a galaxyrise? Bits of moving fluff, made in the interiors of collapsing stars, Rig Veda rings of Uranus! Explorations. Kindling the energy hidden in matter rogue. Vastness is bearable only through love consciousness Flatland consciousness cosmic ocean realm of the galaxies not a sunrise but a galaxyrise worldlets Hypatia, Drake Equation. Realm of the galaxies extraordinary claims require extraordinary evidence and billions upon billions upon billions upon billions upon billions upon billions upon billions.</h3>
+                            <h3>Awesome Application</h3>
+                            <p>This application is amazing because it does this, this, and this. Built with a team of developers over the course of 3 weeks.</p>
+                            <p>React, Redux, Nodejs, Mongo, Express</p>
                         </div>
                     </section>
                     <section class="project">
                         <div class="img i-2"></div>
                         <div class="desc d-2">
-                            <h3>Preserve and cherish that pale blue dot tendrils of gossamer clouds! Drake Equation finite but unbounded something incredible is waiting to be known the ash of stellar alchemy globular star cluster astonishment paroxysm of global death? Science encyclopaedia galactica, preserve and cherish that pale blue dot corpus callosum vastness is bearable only through love billions upon billions. From which we spring as a patch of light, descended from astronomers rich in mystery billions upon billions intelligent beings of brilliant syntheses Flatland birth circumnavigated and billions upon billions upon billions upon billions upon billions upon billions upon billions?</h3>
+                            <h3>Wordcloud Generator</h3>
+                            <p>An application that generates beautifully designed word clouds based on a user’s input, and allows that user to add their word cloud to the library. </p>
+                            <p>React, Redux, D3-cloud, react-tag-cloud, Node, MongoDB, Mongoose, Express</p>
                         </div>
                     </section>
                     <section class="project">
                         <div class="img i-3"></div>
                         <div class="desc d-3">
-                            <h3>Made in the interiors of collapsing stars consciousness, Hypatia paroxysm of global death gathered by gravity. Cosmos. Corpus callosum, birth, dream of the mind's eye preserve and cherish that pale blue dot bits of moving fluff worldlets. From which we spring, corpus callosum across the centuries. Stirred by starlight, radio telescope Orion's sword worldlets Hypatia. Permanence of the stars concept of the number one Cambrian explosion. Encyclopaedia galactica Tunguska event and billions upon billions upon billions upon billions upon billions upon billions upon billions?</h3>
+                            <h3>The Small Council</h3>
+                            <p>A Reddit-style forum with user authentication that allows users to post, comment and vote about content realated to the popular HBO show Game of Thrones.</p>
+                            <p>JavaScript, JQuery, Node, MongoDB, Mongoose, Express</p>
                         </div>
                     </section>
                     <section class="project">
                         <div class="img i-4"></div>
                         <div class="desc d-4">
-                            <h3>Emerged into consciousness the carbon in our apple pies emerged into consciousness. The only home we've ever known something incredible is waiting to be known brain is the seed of intelligence, worldlets, bits of moving fluff. Paroxysm of global death billions upon billions rings of Uranus, are creatures of the cosmos Orion's sword, globular star cluster. How far away the ash of stellar alchemy. Billions upon billions emerged into consciousness cosmic fugue. Emerged into consciousness intelligent beings? Light years rings of Uranus the sky calls to us Euclid, ship of the imagination Vangelis and billions upon billions upon billions upon billions upon billions upon billions upon billions?</h3>
+                            <h3>Quiz App</h3>
+                            <p>An application that uses the Quiz Generator API to allow users to generate their own unique quiz using a variety of parameters provided via the API.</p>
+                            <p>JavaScript, JQuery</p>
                         </div>
                     </section>
                 </section>
             </div>
+            <div class="tech">
+            </div>
+            <footer>
+            </footer>
         </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
