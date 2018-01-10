@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Rubik', sans-serif;
-    background-color: rgba(120, 187, 230, 1);
+    background-color: rgba(252, 252, 252, 1);
     height: 100%;
     margin: 0 0;
 }
@@ -22,10 +22,10 @@ body {
 }
 
 .hero {
-    background: url("../images/filler-bg-2.png");
+    background: url("../images/me-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     order: 1;
     font-size: 1em;
     width: 100%;
@@ -39,23 +39,23 @@ body {
 }
 
 #he-2 {
-    text-indent: 60%;
+    text-indent: 20%;
 }
 
 #he-3 {
-    text-indent: 50%;
+    text-indent: 17%;
 }
 
 #he-4 {
-    text-indent: 40%;
+    text-indent: 14%;
 }
 
 #he-5 {
-    text-indent: 30%;
+    text-indent: 11%;
 }
 
 #he-6 {
-    text-indent: 20%;
+    text-indent: 8%;
 }
 
 .work {
@@ -85,6 +85,10 @@ body {
     padding-bottom: 100%;
 }
 
+.img:hover {
+    background-color: rgba(226, 62, 87, 1);
+}
+
 h3 {
     font-size: 16px;
     text-align: center;
@@ -92,42 +96,54 @@ h3 {
 }
 
 .d-1 {
-    background-color: rgba(226, 62, 87, 1);
+    background-color: rgba(213, 238, 255, 1);
     order:1;
 }
 
 .i-1 {
-    background-color: rgba(213, 238, 255, 1);
+    background: url("../images/placeholder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
     order: 2;
 }
 
 .d-2 {
-    background-color: rgba(226, 62, 87, 1);
+    background-color: rgba(213, 238, 255, 1);
     order: 2;
 }
     
 .i-2 {
-    background-color: rgba(213, 238, 255, 1);
+    background: url("../images/placeholder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
     order: 1;
 }
 
 .d-3 {
-    background-color: rgba(226, 62, 87, 1);
+    background-color: rgba(213, 238, 255, 1);
     order: 1;
 }
         
 .i-3 {
-    background-color: rgba(213, 238, 255, 1);
+    background: url("../images/placeholder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
     order: 2;
 }
 
 .d-4 {
-    background-color: rgba(226, 62, 87, 1);
+    background-color: rgba(213, 238, 255, 1);
     order: 2;
 }
 
 .i-4 {
-    background-color: rgba(213, 238, 255, 1);
+    background: url("../images/placeholder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
     order: 1;
 }
         

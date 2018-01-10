@@ -1,6 +1,6 @@
 header {
     position: fixed;
-    background-color: rgba(120, 187, 230, 1);
+    background-color: rgba(252, 252, 252, 1);
     width: 90%;
     display: flex;
     flex-wrap: wrap;
@@ -14,7 +14,6 @@ header {
     font-family: Montserrat;
     width: 100%;
     font-weight: 100;
-    color: #fcfcfc;
     font-size: 3em;
     margin: auto;
     width: 100%;
@@ -24,9 +23,9 @@ header {
 .hamburger {
     width: 0.6em;
     height: 0.6em;
-    border: 1px solid #fcfcfc;
+    border: 1px solid rgba(226, 62, 87, 0.5);
     border-radius: 2em;
-    box-shadow: 0 0 2px #fcfcfc;
+    box-shadow: 0 0 2px rgba(226, 62, 87, 0.5);
     padding: 10px 10px;
     position: absolute;
     top: 20%;
@@ -34,7 +33,7 @@ header {
 }
 
 .hamburger-stripe {
-    background-color: #fcfcfc;
+    background-color: rgba(226, 62, 87, 0.5);
     height: 2px;
     width: 10px;
     margin-bottom: 2px;
