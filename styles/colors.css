@@ -1,23 +1,23 @@
 .dark-blue {
-    color: #404969;
+    color: rgba(64, 73, 105, 1)
 }
 
 .accent {
-    color: #FF895D;
+    color: rgba(255, 137, 93, 1)
 }
 
 .off-white {
-    color: #fcfcfc;
+    color: rgba(252, 252, 252, 1)
 }
 
 .pink {
-    color: #e23e57;
+    color: rgba(226, 62, 87, 1)
 }
 
 .light-blue {
-    color: #78bbe6;
+    color: rgba(120, 187, 230, 1)
 }
 
 .sky-blue {
-    color: #d5eeff;
+    color: rgba(213, 238, 255, 1)
 }

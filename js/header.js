@@ -17,7 +17,7 @@ function createString(input) {
 $('document').ready(function() {
   let myHeader = $('#main-header');
   createString(myHeader);
-  $('.char-3').addClass('accent');
-  $('.char-11').addClass('accent');
+  $('.char-3').addClass('pink');
+  $('.char-11').addClass('pink');
   $('.char-5').addClass('spacing');
 }); 
