@@ -5,6 +5,24 @@
     background-color: rgba(61, 61, 61, 1);
 }
 
+#footer nav {
+    margin-top: 20%;
+}
+
+#social span {
+    font-family: Montserrat;
+    display: table;
+    margin: auto;
+    font-size: 0.75em;
+    margin-top: 5%;
+}
+
+#social p {
+    font-family: Montserrat;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2em;
+}
 
 #social ul {
     text-align: center;
