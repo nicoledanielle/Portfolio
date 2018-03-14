@@ -18,6 +18,7 @@ body {
 }
 
 #hero {
+    z-index: 12;
     order: 2;
     font-size: 1em;
     width: 100%;
