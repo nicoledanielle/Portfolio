@@ -37,7 +37,6 @@ body {
 
 .about-img img{
     max-width:100%;
-    /* max-height:100%; */
 }
 
 .about-text {
@@ -49,17 +48,17 @@ body {
 
 .about-text p {
     font-size: 2em;
+    font-size: 2vw;
 }
 
 #work {
     order: 3;
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background-color: rgba(252, 252, 252, 1);
     z-index: 0;
     display: flex;
     flex-wrap: wrap;
-    overflow: scroll;
 }
 
 .project {
@@ -207,3 +206,64 @@ body {
     max-width:90%;
 }
         
+@media screen and (max-width: 768px) {
+    #hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-title {
+        display: block;
+        text-align: center;
+        order: 1;
+        width: 90%;
+    }
+
+    #mobile-title {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 20%;
+        flex-shrink: 2;
+        padding-bottom: 5%;
+    }
+
+    #desk-title {
+        display: none;
+    }
+
+    .about-img {
+        order: 2;
+        min-height: 30%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 1;
+    }
+
+    .about-img img{
+        max-height: 100%;
+        max-width: 50%;
+        padding-left: 0%;
+    }
+
+    .about-text {
+        text-align: center;
+        order: 3;
+        width: 80%;
+        padding-left: 0%;
+        padding-right: 0%;
+        max-height: 35%;
+        flex-shrink: 3;
+    }
+
+    .about-text p {
+        font-size: 1em;
+        margin-bottom: 0%;
+    }
+    
+}
