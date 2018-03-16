@@ -1,27 +1,46 @@
 #footer {
     order: 5;
-    height: 100vh;
     width: 100%;
-    background-color: rgba(61, 61, 61, 1);
+    background-image: url("../images/milky-way.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 #footer nav {
-    margin-top: 20%;
+    position: relative;
+    z-index: 20;
+    margin-bottom: 20%;
+    margin-top: 15%;
+}
+
+.opacity-box-foot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: darkgray;
+    z-index: 5;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
 }
 
 #social span {
     font-family: Montserrat;
     display: table;
     margin: auto;
-    font-size: 0.75em;
-    margin-top: 5%;
+    font-size: 1em;
+    font-size: 1vw;
 }
 
 #social p {
     font-family: Montserrat;
     text-align: center;
     font-weight: 800;
-    font-size: 2em;
+    font-size: 3em;
+    font-size: 3vw;
 }
 
 #social ul {
@@ -38,11 +57,27 @@
     text-decoration:  none;
 }
 
-.social-icon i {
+.social-icon svg {
     color: rgba(213, 238, 255, 1);
-    font-size: 2em;
+    padding: 2%;
+    font-size: 4em;
+    font-size: 4vw;
 }
 
-.social-icon i:hover {
+.social-icon svg:hover {
     color: rgba(226, 62, 87, 1);
+}
+
+@media screen and (max-width: 768px) {
+    #social p {
+        font-size: 2em;
+    }
+    
+    .social-icon svg {
+        font-size: 3em;
+    }
+
+    #social span {
+        font-size: 0.6em;
+    }
 }

@@ -99,6 +99,21 @@ body {
 
 /*work section*/
 
+.work-title {
+    width: 100%;
+    background-color: rgba(61, 61, 61, 0.8);
+    text-align: center;
+    color: rgba(252, 252, 252, 1);
+    font-family: Montserrat;
+    font-size: 4em;
+    font-size: 4vw;
+}
+
+.work-title h1 {
+    text-transform: uppercase;
+
+}
+
 .line {
     background-color: rgba(61, 61, 61, 1);
     height: 1px;
@@ -108,7 +123,7 @@ body {
 #work {
     order: 3;
     width: 100%;
-    background-color: rgba(213, 238, 255, 1);
+    background-color: rgba(213, 238, 255, 0.5);
     z-index: 0;
     display: flex;
     flex-wrap: wrap;
@@ -149,12 +164,12 @@ body {
     font-style: italic;
 }
 
-.d-1 {
+.d-1, .d-3 {
     order:1;
     width: 50%;
 }
 
-.i-1 {
+.i-1, .i-3 {
     order: 2;
     width: 50%;
     display: flex;
@@ -163,7 +178,7 @@ body {
     margin-top: 5%;
 }
 
-.i-1 img, .i-2 img {
+.i-1 img, .i-2 img, .i-3 img, .i-4 img {
     width: 80%;
     border-radius: 5px;
     order: 2;
@@ -192,56 +207,45 @@ body {
 }
 
 
-.d-2 {
+.d-2, .d-4 {
     order: 2;
     width: 50%;
 }
     
-.i-2 {
+.i-2, .i-4 {
     order: 1;
     width: 50%;
 }
 
-.d-3 {
-    order: 1;
-}
-        
-.i-3 {
-    background: url("https://placeimg.com/640/480/arch");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.5;
-    order: 2;
-}
 
-.d-4 {
-    order: 2;
-}
 
-.i-4 {
-    background: url("https://placeimg.com/640/480/nature");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.5;
-    order: 1;
-}
 
 /*tech section*/
 
 #tech {
     order: 4;
-    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    background-image: url("../images/workspace.JPG");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .tech-title {
     order: 1;
-    width: 100%;
+    width: 80%;
+    margin-top: 5%;
     text-align: center;
     align-items: center;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    background-color: rgba(61, 61, 61, 0.8)
 }
 
 .tech-title h1 {
@@ -253,16 +257,21 @@ body {
     order: 2;
     display: flex;
     flex-direction: row;
-    height: 80%;
+    width: 80%;
     align-items: center;
+    background-color: rgba(61, 61, 61, 0.8);
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .tech-desc {
     order: 1;
-    width: 50%;
+    width: 100%;
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 1.8em;
+    font-size: 2em;
+    font-size: 2vw;
     align-items: center;
 }
 
@@ -270,18 +279,6 @@ body {
     font-weight: 700;
 }
 
-.tech-desc p {
-    margin-bottom: 5%;
-}
-
-.tech-img {
-    order: 2;
-    width: 50%;
-}
-
-.tech-img img {
-    max-width:90%;
-}
         
 @media screen and (max-width: 768px) {
     #hero {
@@ -345,4 +342,46 @@ body {
         font-size: 1em;
     }
     
+    .project {
+        z-index: -1;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+
+    .d-1, .d-2, .d-3, .d-4 {
+        order: 2;
+        width: 100%;
+    }
+        
+    .i-1, .i-2, .i-3 .i-4 {
+        order: 1;
+        width: 100%;
+    }
+
+    .i-2 img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .desc p {
+        font-size: 1em;
+    }
+
+    .i-1-links a {
+        font-size: 1em;
+    }
+
+    .tech-title h1 {
+        font-size: 2em;
+        height: 20%;
+    }
+
+    .tech-desc {
+        width: 80%;
+        font-size: 1em;
+        align-items: center;
+    }
 }
