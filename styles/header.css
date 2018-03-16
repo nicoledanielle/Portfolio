@@ -66,11 +66,14 @@ header div, header nav {
 
 .arrow-down {
     order: 3;
-    color: rgba(252, 252, 252, 1.0);
     z-index: 12;
     height: 20%;
     font-size: 4em;
     font-size: 4vw;
+}
+
+.arrow-down a {
+    color: rgba(252, 252, 252, 1.0);
 }
 
 .fa-angle-down:hover {
