@@ -1,0 +1,1 @@
+This is a portfolio for Nicole Gilbert, Web Developer and Designer. Please take a look at the live portfolio here: http://www.nicolegilbert.com. Thank you
