@@ -137,6 +137,10 @@ header div, header nav {
 
 @media screen and (max-width: 768px) {
 
+    header {
+        background-attachment: scroll;
+    }
+
     .hide {
         display: none;
     }

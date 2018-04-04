@@ -290,6 +290,10 @@ body {
         justify-content: center;
     }
 
+    #tech {
+        background-attachment: scroll;
+    }
+
     .about-title {
         display: block;
         text-align: center;
